@@ -1,26 +1,23 @@
 
 import java.util.Scanner;
-//import java.util.ArrayList;
+import java.util.ArrayList;
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Sandbox {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        String buba = "buba";
-//        char b = buba.charAt(0);
-//        Person ada = new Person("ada");
-//        System.out.println(ada);
-//        System.out.println(ada.ad());
-//        System.out.println(ada.yash());
-//        dida(82812);
-//        System.out.println(dida(82812));
-//        LocalDate date = LocalDate.now();
-//        System.out.println(date.getMonth());
-          System.out.println((1000-740) / 100);
+        int[] nums = {8, 3, 7, 9, 1, 2, 4};
+        System.out.println(Arrays.toString(nums));
+        Arrays.sort(nums);
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(8);
+        numbers.add(7);
+        System.out.println(numbers);
+        Collections.sort(numbers);
+        System.out.println(numbers);
     }
-    
-    public static long dida(int a) {
-        return a;
-    }
+  
 }
